@@ -1,0 +1,91 @@
+---
+layout: default
+title: Overhead_Calculation
+nav_order: 3
+parent: GliwaT1
+---
+{% raw %}
+<!DOCTYPE html>
+
+<html>
+<head>
+	
+	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+	<title></title>
+	<meta name="generator" content="LibreOffice 7.3.7.2 (Linux)"/>
+	<meta name="author" content="Nicholas Merriam"/>
+	<meta name="created" content="2014-02-12T17:58:39"/>
+	<meta name="changedby" content="Latchford, Blake"/>
+	<meta name="changed" content="2014-05-23T14:58:06"/>
+	<meta name="AppVersion" content="14.0300"/>
+	<meta name="Company" content="Gliwa GmbH"/>
+	
+	<style type="text/css">
+		body,div,table,thead,tbody,tfoot,tr,th,td,p { font-family:"Calibri"; font-size:x-small }
+		a.comment-indicator:hover + comment { background:#ffd; position:absolute; display:block; border:1px solid black; padding:0.5em;  } 
+		a.comment-indicator { background:red; display:inline-block; border:1px solid black; width:0.5em; height:0.5em;  } 
+		comment { display:none;  } 
+	</style>
+	
+</head>
+
+<body>
+<table cellspacing="0" border="0">
+	<colgroup width="135"></colgroup>
+	<colgroup width="102"></colgroup>
+	<colgroup width="91"></colgroup>
+	<colgroup width="48"></colgroup>
+	<tr>
+		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 2px solid #000000" colspan=6 height="127" align="left" valign=top bgcolor="#EEECE1"><font color="#000000">Instructions: Measure the current overheads with a right-click on the relevant System in the Project Explorer view of the T1-HOST-SW. Enter the measured values from the Timing Information tab in the dark blue cells. Then copy the results in the orange cells either directly into T1_config.c as T1_OVERHEAD_COREx_NS and T1_FLEX_OVERHEAD_COREx_NS or indirectly into T1_UserCfg.inv as -t1ScopeOverheadNs and -t1FlexOverheadNs</font></td>
+		</tr>
+	<tr>
+		<td height="20" align="left" valign=bottom><font color="#000000"><br></font></td>
+		<td align="left" valign=bottom><font color="#000000"><br></font></td>
+		<td align="left" valign=bottom><b><font color="#000000">Min GET (ns)</font></b></td>
+		<td align="left" valign=bottom><b><font color="#000000">(ticks)</font></b></td>
+	</tr>
+	<tr>
+		<td rowspan=4 height="80" align="left" valign=middle bgcolor="#C6D9F1"><font color="#000000">Measured values</font></td>
+		<td align="left" valign=bottom bgcolor="#C6D9F1"><font color="#000000">TickDuration</font></td>
+		<td align="right" valign=bottom bgcolor="#558ED5" sdval="6.25" sdnum="1033;"><font color="#000000">6.25</font></td>
+		<td align="left" valign=bottom bgcolor="#C6D9F1"><font color="#000000"><br></font></td>
+	</tr>
+	<tr>
+		<td align="left" valign=bottom bgcolor="#C6D9F1"><font color="#000000">Stopwatch 765</font></td>
+		<td align="right" valign=bottom bgcolor="#558ED5" sdval="5892" sdnum="1033;"><font color="#000000">5892</font></td>
+		<td align="right" valign=bottom bgcolor="#C6D9F1" sdval="943" sdnum="1033;"><font color="#000000">943</font></td>
+	</tr>
+	<tr>
+		<td align="left" valign=bottom bgcolor="#C6D9F1"><font color="#000000">Stopwatch 766</font></td>
+		<td align="right" valign=bottom bgcolor="#558ED5" sdval="487" sdnum="1033;"><font color="#000000">487</font></td>
+		<td align="right" valign=bottom bgcolor="#C6D9F1" sdval="78" sdnum="1033;"><font color="#000000">78</font></td>
+	</tr>
+	<tr>
+		<td align="left" valign=bottom bgcolor="#C6D9F1"><font color="#000000">T1.scope OH</font></td>
+		<td align="right" valign=bottom bgcolor="#558ED5" sdval="537" sdnum="1033;"><font color="#000000">537</font></td>
+		<td align="right" valign=bottom bgcolor="#C6D9F1" sdval="86" sdnum="1033;"><font color="#000000">86</font></td>
+	</tr>
+	<tr>
+		<td height="20" align="left" valign=bottom><font color="#000000"><br></font></td>
+		<td align="left" valign=bottom><font color="#000000"><br></font></td>
+		<td align="left" valign=bottom><font color="#000000"><br></font></td>
+		<td align="left" valign=bottom><font color="#000000"><br></font></td>
+	</tr>
+	<tr>
+		<td rowspan=2 height="40" align="left" valign=middle bgcolor="#FCD5B5"><font color="#000000">Values to configure</font></td>
+		<td align="left" valign=bottom bgcolor="#FCD5B5"><font color="#000000">T1.scope OH</font></td>
+		<td align="right" valign=bottom bgcolor="#FFC000" sdval="538" sdnum="1033;"><font color="#000000">538</font></td>
+		<td align="right" valign=bottom bgcolor="#FCD5B5" sdval="86" sdnum="1033;"><font color="#000000">86</font></td>
+	</tr>
+	<tr>
+		<td align="left" valign=bottom bgcolor="#FCD5B5"><font color="#000000">T1.flex OH</font></td>
+		<td align="right" valign=bottom bgcolor="#FFC000" sdval="2163" sdnum="1033;"><font color="#000000">2163</font></td>
+		<td align="right" valign=bottom bgcolor="#FCD5B5" sdval="346.5" sdnum="1033;"><font color="#000000">346.5</font></td>
+	</tr>
+</table>
+<!-- ************************************************************************** -->
+</body>
+
+</html>
+
+{% endraw %}

@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	
+	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+	<title></title>
+	<meta name="generator" content="LibreOffice 7.3.7.2 (Linux)"/>
+	<meta name="author" content="Owen Tosh (nzx5jd)"/>
+	<meta name="created" content="1996-10-14T23:33:28"/>
+	<meta name="changedby" content="Nexteer Employee"/>
+	<meta name="changed" content="2016-01-22T22:23:32"/>
+	<meta name="AppVersion" content="14.0300"/>
+	
+	<style type="text/css">
+		body,div,table,thead,tbody,tfoot,tr,th,td,p { font-family:"Arial"; font-size:x-small }
+		a.comment-indicator:hover + comment { background:#ffd; position:absolute; display:block; border:1px solid black; padding:0.5em;  } 
+		a.comment-indicator { background:red; display:inline-block; border:1px solid black; width:0.5em; height:0.5em;  } 
+		comment { display:none;  } 
+	</style>
+	
+</head>
+
+<body>
+<hr>
+	<p><center>
+		<h1>Overview</h1>
+		<A HREF="#table0">Change Log</A><br>
+		<A HREF="#table1">Variable Dictionary</A><br>
+		<A HREF="#table2">Calibration Dictionary</A><br>
+		<A HREF="#table3">Global Constants</A><br>
+		<A HREF="#table6">Template</A><br>
+		<A HREF="#table7">Help</A><br>
+		
+	</center></p>
+<hr>
+<A NAME="table0"><h1>Sheet 1: <em>Change Log</em></h1></A>
+<table cellspacing="0" border="0">
+	<colgroup span="2" width="64"></colgroup>
+	<colgroup width="109"></colgroup>
+	<colgroup width="506"></colgroup>
+	<colgroup span="3" width="64"></colgroup>
+	<colgroup width="77"></colgroup>
+	<tr>
+		<td style="border-bottom: 2px solid #000000; border-left: 1px solid #000000" colspan=4 height="24" align="center" valign=middle bgcolor="#993366"><font size=4 color="#FFFFFF">Haitec LC - Rev 40</font></td>
+		<td style="border-bottom: 2px solid #000000" align="left" valign=middle>&lt;- Global Program / Module Name</td>
+		<td style="border-bottom: 2px solid #000000" align="center" valign=middle><br></td>
+		<td style="border-bottom: 2px solid #000000" align="center" valign=middle><br></td>
+		<td style="border-bottom: 2px solid #000000" align="center" valign=middle><br></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="17" align="center" valign=bottom>Revision</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom>Author</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom>Date</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=bottom>Change Description</td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td style="border-left: 1px solid #000000" align="right" valign=top>Data Dictionary Type:</td>
+		<td align="left" valign=bottom>Component</td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="17" align="center" valign=middle sdval="1" sdnum="1033;">1</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle>OT</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle sdval="41474" sdnum="1033;0;D-MMM-YY">19-Jul-13</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle>Initial Version</td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="17" align="center" valign=middle sdval="2" sdnum="1033;">2</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle>OT</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle sdval="41478" sdnum="1033;0;D-MMM-YY">23-Jul-13</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle>Integrated latest StaMd</td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="17" align="center" valign=middle sdval="3" sdnum="1033;">3</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle>OT</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle sdval="41485" sdnum="1033;0;D-MMM-YY">30-Jul-13</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle>Integrated DigMSB and DigMSBSigCorr</td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="17" align="center" valign=middle sdval="4" sdnum="1033;">4</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle>OT</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle sdval="41487" sdnum="1033;0;D-MMM-YY">1-Aug-13</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle>Integrated DigHwTrqSENT, latest ePWM, and SCom calibrations</td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="17" align="center" valign=middle sdval="5" sdnum="1033;">5</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle>OT</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle sdval="41493" sdnum="1033;0;D-MMM-YY">7-Aug-13</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle>Integrated AbsHwPos</td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="17" align="center" valign=middle sdval="6" sdnum="1033;">6</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle>OT</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle sdval="41495" sdnum="1033;0;D-MMM-YY">9-Aug-13</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle>Corrected number of tuning sets, added cals for DiagSvc</td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="17" align="center" valign=middle sdval="7" sdnum="1033;">7</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle>OT</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle sdval="41497" sdnum="1033;0;D-MMM-YY">11-Aug-13</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle>Integrated latest uDiag</td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="17" align="center" valign=middle sdval="8" sdnum="1033;">8</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle>OT</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle sdval="41498" sdnum="1033;0;D-MMM-YY">12-Aug-13</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle>Integrated latest DiagSvc</td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="17" align="center" valign=middle sdval="9" sdnum="1033;">9</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle>OT</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle sdval="41501" sdnum="1033;0;D-MMM-YY">15-Aug-13</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle>Updated tuning set indexing</td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="17" align="center" valign=middle sdval="10" sdnum="1033;">10</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle>OT</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle sdval="41512" sdnum="1033;0;D-MMM-YY">26-Aug-13</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle>Integrated SignlCond and VehDyn</td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="17" align="center" valign=middle sdval="11" sdnum="1033;">11</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle>OT</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle sdval="41520" sdnum="1033;0;D-MMM-YY">3-Sep-13</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle>Integrated latest DigMSB, DigMSBSigCorr, and MtrVel_Digi</td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="17" align="center" valign=middle sdval="12" sdnum="1033;">12</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle>OT</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle sdval="41529" sdnum="1033;0;D-MMM-YY">12-Sep-13</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle>Integrated latest CmMtrCurr</td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="17" align="center" valign=middle sdval="13" sdnum="1033;">13</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle>OT</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle sdval="41529" sdnum="1033;0;D-MMM-YY">12-Sep-13</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle>Integrated UTP updates for various components</td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="17" align="center" valign=middle sdval="14" sdnum="1033;">14</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle>OT</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle sdval="41541" sdnum="1033;0;D-MMM-YY">24-Sep-13</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle>Integrated latest DigMSB and DigMSBSigCorr</td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="17" align="center" valign=middle sdval="15" sdnum="1033;">15</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle>OT</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle sdval="41544" sdnum="1033;0;D-MMM-YY">27-Sep-13</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle>Clean up for compiler warnings</td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="17" align="center" valign=middle sdval="16" sdnum="1033;">16</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle>OT</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle sdval="41570" sdnum="1033;0;D-MMM-YY">23-Oct-13</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle>Integrated latest MtrCtrl_Cm</td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="17" align="center" valign=middle sdval="17" sdnum="1033;">17</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle>OT</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle sdval="41593" sdnum="1033;0;D-MMM-YY">15-Nov-13</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle>Updates for bootloader changes</td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="17" align="center" valign=middle sdval="18" sdnum="1033;">18</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle>OT</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle sdval="41604" sdnum="1033;0;D-MMM-YY">26-Nov-13</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle>Integrated latest AbsHwPos</td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="17" align="center" valign=middle sdval="19" sdnum="1033;">19</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle>OT</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle sdval="41610" sdnum="1033;0;D-MMM-YY">2-Dec-13</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle>Integrated latest DigMSB and DigMSBSigCorr</td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="17" align="center" valign=middle sdval="20" sdnum="1033;">20</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle>OT</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle sdval="41654" sdnum="1033;0;D-MMM-YY">15-Jan-14</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle>Integrated latest Metrics</td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="17" align="center" valign=middle sdval="21" sdnum="1033;">21</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle>OT</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle sdval="41668" sdnum="1033;0;D-MMM-YY">29-Jan-14</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle>Integrated outdated components</td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="17" align="center" valign=middle sdval="22" sdnum="1033;">22</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle>OT</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle sdval="41687" sdnum="1033;0;D-MMM-YY">17-Feb-14</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle>Updates for SER 001F</td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="17" align="center" valign=middle sdval="23" sdnum="1033;">23</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle>OT</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle sdval="41750" sdnum="1033;0;D-MMM-YY">21-Apr-14</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle>Updates for DMA integration</td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="17" align="center" valign=middle sdval="24" sdnum="1033;">24</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle>OT</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle sdval="41753" sdnum="1033;0;D-MMM-YY">24-Apr-14</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle>Misc component updates</td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="17" align="center" valign=middle sdval="25" sdnum="1033;">25</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle>OT</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle sdval="41768" sdnum="1033;0;D-MMM-YY">9-May-14</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle>Integrated latest DigMSB</td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="17" align="center" valign=middle sdval="26" sdnum="1033;">26</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle>OT</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle sdval="41787" sdnum="1033;0;D-MMM-YY">28-May-14</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle>Updated ranges for LrnEOT cals</td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="17" align="center" valign=middle sdval="27" sdnum="1033;">27</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle>OT</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle sdval="41792" sdnum="1033;0;D-MMM-YY">2-Jun-14</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle>Updates for latest DigMSB</td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="17" align="center" valign=middle sdval="28" sdnum="1033;">28</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle>OT</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle sdval="41793" sdnum="1033;0;D-MMM-YY">3-Jun-14</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle>Updaed cal range</td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="17" align="center" valign=middle sdval="29" sdnum="1033;">29</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle>OT</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle sdval="41983" sdnum="1033;0;D-MMM-YY">10-Dec-14</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle>Updates for several minor component updates</td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="17" align="center" valign=middle sdval="30" sdnum="1033;">30</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle>OT</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle sdval="41988" sdnum="1033;0;D-MMM-YY">15-Dec-14</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle>Updates for components with RTE changes</td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="17" align="center" valign=middle sdval="31" sdnum="1033;">31</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle>OT</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle sdval="41988" sdnum="1033;0;D-MMM-YY">15-Dec-14</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle>Updates for latest Adc and CmMtrCurr</td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="17" align="center" valign=middle sdval="32" sdnum="1033;">32</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle>OT</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle sdval="41989" sdnum="1033;0;D-MMM-YY">16-Dec-14</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle>Updates for latest AbsHwPos and VehDyn</td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="17" align="center" valign=middle sdval="33" sdnum="1033;">33</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle>OT</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle sdval="42047" sdnum="1033;0;D-MMM-YY">12-Feb-15</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle>Added cal for slow ADC test</td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="17" align="center" valign=middle sdval="34" sdnum="1033;">34</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle>OT</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle sdval="42048" sdnum="1033;0;D-MMM-YY">13-Feb-15</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle>Added cal for new NM message</td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="17" align="center" valign=middle sdval="35" sdnum="1033;">35</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle>OT</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle sdval="42052" sdnum="1033;0;D-MMM-YY">17-Feb-15</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle>Updates for latest ePWM, DMA, and uDiag</td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="17" align="center" valign=middle sdval="36" sdnum="1033;">36</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle>OT</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle sdval="42053" sdnum="1033;0;D-MMM-YY">18-Feb-15</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle>Updates for latest VehDyn</td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="17" align="center" valign=middle sdval="37" sdnum="1033;">37</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle>OT</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle sdval="42074" sdnum="1033;0;D-MMM-YY">11-Mar-15</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle>Updated fixed addresses for DSR updates</td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="17" align="center" valign=middle sdval="38" sdnum="1033;">38</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle>OT</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle sdval="42111" sdnum="1033;0;D-MMM-YY">17-Apr-15</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle>Updates for VehPwrMd and MtrVel_Digi</td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="17" align="center" valign=middle sdval="39" sdnum="1033;">39</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle>OT</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle sdval="42256" sdnum="1033;0;D-MMM-YY">9-Sep-15</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle>Updates for HaitecTrqCmd</td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="17" align="center" valign=middle sdval="40" sdnum="1033;">40</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle>WH</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle sdval="42391" sdnum="1033;0;D-MMM-YY">22-Jan-16</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle>Added handwheel position transmit enable for EPAS2</td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="17" align="center" valign=middle><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle sdnum="1033;0;D-MMM-YY"><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="17" align="center" valign=middle><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle sdnum="1033;0;D-MMM-YY"><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="17" align="center" valign=middle><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle sdnum="1033;0;D-MMM-YY"><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="17" align="center" valign=middle><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle sdnum="1033;0;D-MMM-YY"><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=middle><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+	</tr>
+</table>
+<!-- ************************************************************************** -->
+<hr>
+<A NAME="table1"><h1>Sheet 2: <em>Variable Dictionary</em></h1></A>
+<table cellspacing="0" border="0">
+	<colgroup width="212"></colgroup>
+	<colgroup width="221"></colgroup>
+	<colgroup width="133"></colgroup>
+	<colgroup width="221"></colgroup>
+	<colgroup width="151"></colgroup>
+	<colgroup width="53"></colgroup>
+	<colgroup width="42"></colgroup>
+	<colgroup width="67"></colgroup>
+	<colgroup width="137"></colgroup>
+	<colgroup width="184"></colgroup>
+	<colgroup width="180"></colgroup>
+	<colgroup width="160"></colgroup>
+	<colgroup width="112"></colgroup>
+	<colgroup width="110"></colgroup>
+	<colgroup width="116"></colgroup>
+	<colgroup width="129"></colgroup>
+	<colgroup width="273"></colgroup>
+	<colgroup width="34"></colgroup>
+	<colgroup width="19"></colgroup>
+	<colgroup width="18"></colgroup>
+	<colgroup width="19"></colgroup>
+	<colgroup span="2" width="17"></colgroup>
+	<tr>
+		<td style="border-bottom: 2px solid #000000; border-left: 1px solid #000000" colspan=16 height="39" align="center" valign=middle bgcolor="#993366"><font size=4 color="#FFFFFF">Haitec LC - Rev 40</font></td>
+		<td align="left" valign=middle><br></td>
+		<td align="left" valign=middle><br></td>
+		<td align="left" valign=bottom>I</td>
+		<td align="left" valign=bottom>O</td>
+		<td align="left" valign=bottom>M</td>
+		<td align="left" valign=bottom>D</td>
+		<td align="left" valign=bottom>N</td>
+	</tr>
+	<tr>
+		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 1px solid #000000; border-right: 2px solid #000000" colspan=16 height="18" align="center" valign=bottom bgcolor="#CCFFFF"><b>Variable Information</b></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom>Y</td>
+		<td align="left" valign=bottom>N</td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+	</tr>
+	<tr>
+		<td style="border-top: 2px solid #000000; border-left: 1px solid #000000" height="17" align="left" valign=bottom><b><font size=1><br></font></b></td>
+		<td style="border-top: 2px solid #000000" align="left" valign=bottom><b><font size=1><br></font></b></td>
+		<td style="border-top: 2px solid #000000" align="left" valign=bottom><b><font size=1><br></font></b></td>
+		<td style="border-top: 2px solid #000000" align="left" valign=bottom><b><font size=1><br></font></b></td>
+		<td style="border-top: 2px solid #000000; border-left: 2px double #000000; border-right: 2px double #000000" align="left" valign=bottom><b><font size=1><br></font></b></td>
+		<td style="border-top: 2px solid #000000; border-left: 2px double #000000; border-right: 2px double #000000" align="center" valign=bottom><b><font size=1><br></font></b></td>
+		<td style="border-right: 2px double #000000" align="center" valign=bottom><b><font size=1><br></font></b></td>
+		<td style="border-top: 2px solid #000000; border-left: 2px double #000000; border-right: 2px double #000000" align="center" valign=bottom><b><font size=1><br></font></b></td>
+		<td align="center" valign=bottom><b><font size=1><br></font></b></td>
+		<td style="border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 2px double #000000" colspan=2 align="center" valign=bottom><b><font size=1>Range</font></b></td>
+		<td style="border-top: 2px solid #000000; border-left: 2px double #000000; border-right: 2px double #000000" align="center" valign=top><b><font size=1><br></font></b></td>
+		<td style="border-top: 2px solid #000000; border-left: 2px double #000000; border-right: 2px double #000000" align="center" valign=top><b><font size=1><br></font></b></td>
+		<td style="border-top: 2px solid #000000; border-left: 2px double #000000; border-right: 2px double #000000" align="center" valign=top><b><font size=1><br></font></b></td>
+		<td style="border-right: 2px solid #000000" align="center" valign=bottom><b><font size=1><br></font></b></td>
+		<td style="border-right: 2px solid #000000" align="center" valign=bottom><b><font size=1><br></font></b></td>
+		<td align="left" valign=bottom><font size=1><br></font></td>
+		<td align="left" valign=bottom><font size=1><br></font></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+	</tr>
+	<tr>
+		<td style="border-bottom: 2px solid #000000; border-left: 1px solid #000000" height="28" align="center" valign=bottom><b><font size=1>Software Variable Name</font></b></td>
+		<td style="border-bottom: 2px solid #000000" align="center" valign=bottom><b><font size=1>Standard Reference Name</font></b></td>
+		<td style="border-bottom: 2px solid #000000; border-left: 2px double #000000; border-right: 2px double #000000" align="center" valign=bottom><b><font size=1>Source MDD</font></b></td>
+		<td style="border-bottom: 2px solid #000000" align="center" valign=bottom><b><font size=1>FDD Reference</font></b></td>
+		<td style="border-bottom: 2px solid #000000; border-left: 2px double #000000; border-right: 2px double #000000" align="center" valign=bottom><b><font size=1>Description</font></b></td>
+		<td style="border-bottom: 2px solid #000000; border-left: 2px double #000000; border-right: 2px double #000000" align="center" valign=bottom><a class="comment-indicator"></a>
+		<comment>[I]nput
+[O]uput
+[M]oduleInternal
+[D]isplay
+[N]onVolatileMemory</comment>
+		<b><font size=1>Usage</font></b></td>
+		<td style="border-bottom: 2px solid #000000; border-right: 2px double #000000" align="center" valign=bottom><b><font size=1>OEM</font></b></td>
+		<td style="border-bottom: 2px solid #000000; border-left: 2px double #000000; border-right: 2px double #000000" align="center" valign=bottom><a class="comment-indicator"></a>
+		<comment>1X, 1Y, 1Z, 1I, 1BS
+2X, 2Y, 2Z, 2I, 2BS
+etc</comment>
+		<b><font size=1>Graph Settings</font></b></td>
+		<td style="border-bottom: 2px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom><b><font size=1>Initalization Value</font></b></td>
+		<td style="border-bottom: 2px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom><b><font size=1>Min</font></b></td>
+		<td style="border-bottom: 2px solid #000000; border-left: 1px solid #000000; border-right: 2px double #000000" align="center" valign=bottom><b><font size=1>Max</font></b></td>
+		<td style="border-bottom: 2px solid #000000; border-left: 2px double #000000; border-right: 2px double #000000" align="center" valign=bottom><b><font size=1>Resolution</font></b></td>
+		<td style="border-bottom: 2px solid #000000; border-left: 2px double #000000; border-right: 2px double #000000" align="center" valign=bottom><b><font size=1>Unit Test Tolerance (+/-)</font></b></td>
+		<td style="border-bottom: 2px solid #000000; border-left: 2px double #000000; border-right: 2px double #000000" align="center" valign=bottom><b><font size=1>Units</font></b></td>
+		<td style="border-bottom: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=bottom><b><font size=1>Type</font></b></td>
+		<td style="border-right: 2px solid #000000" align="center" valign=bottom><b><font size=1>Memory Segment</font></b></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="center" valign=bottom><font size=1><br></font></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+	</tr>
+	<tr>
+		<td style="border-top: 2px solid #000000; border-left: 2px solid #000000" height="20" align="left" valign=bottom bgcolor="#C0C0C0"><b><i>Variables</i></b></td>
+		<td style="border-top: 2px solid #000000" align="left" valign=bottom bgcolor="#C0C0C0"><b><i><br></i></b></td>
+		<td style="border-top: 2px solid #000000" align="left" valign=bottom bgcolor="#C0C0C0"><b><i><br></i></b></td>
+		<td style="border-top: 2px solid #000000" align="left" valign=bottom bgcolor="#C0C0C0"><b><i><br></i></b></td>
+		<td style="border-top: 2px solid #000000" align="left" valign=bottom bgcolor="#C0C0C0"><font size=1><br></font></td>
+		<td style="border-top: 2px solid #000000" align="center" valign=bottom bgcolor="#C0C0C0"><font size=1><br></font></td>
+		<td style="border-top: 2px solid #000000" align="center" valign=bottom bgcolor="#C0C0C0"><font size=1><br></font></td>
+		<td style="border-top: 2px solid #000000" align="center" valign=bottom bgcolor="#C0C0C0"><font size=1><br></font></td>
+		<td style="border-top: 2px solid #000000" align="center" valign=bottom bgcolor="#C0C0C0"><font size=1><br></font></td>
+		<td style="border-top: 2px solid #000000" align="center" valign=bottom bgcolor="#C0C0C0"><font size=1><br></font></td>
+		<td style="border-top: 2px solid #000000" align="center" valign=bottom bgcolor="#C0C0C0"><font size=1><br></font></td>
+		<td style="border-top: 2px solid #000000" align="center" valign=bottom bgcolor="#C0C0C0"><font size=1><br></font></td>
+		<td style="border-top: 2px solid #000000" align="center" valign=bottom bgcolor="#C0C0C0"><font size=1><br></font></td>
+		<td style="border-top: 2px solid #000000" align="center" valign=bottom bgcolor="#C0C0C0"><font size=1><br></font></td>
+		<td style="border-top: 2px solid #000000" align="center" valign=bottom bgcolor="#C0C0C0"><font size=1><br></font></td>
+		<td style="border-top: 2px solid #000000" align="center" valign=bottom bgcolor="#C0C0C0"><font size=1><br></font></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-left: 2px solid #000000; border-right: 2px double #000000" height="88" align="left" valign=top><font size=1>CumMechMtrPosCRF_Deg_f32</font></td>
+		<td style="border-top: 1px solid #000000; border-left: 2px double #000000; border-right: 2px double #000000" align="left" valign=top><font size=1>CumMechMtrPosCRF_DegM</font></td>
+		<td style="border-top: 1px solid #000000; border-left: 2px double #000000; border-right: 2px double #000000" align="left" valign=top><font size=1>AbsHwPos_TcI2cVd</font></td>
+		<td style="border-top: 1px solid #000000; border-left: 2px double #000000; border-right: 2px double #000000" align="left" valign=top><font size=1>FDD05G I2CAbsoluteHandwheelPositionFunction</font></td>
+		<td style="border-top: 1px solid #000000; border-left: 2px double #000000; border-right: 2px double #000000" align="left" valign=top>Cumulative Motor position adjusted for roll over and counting from zero every ignition cycle in core ref frame.</td>
+		<td style="border-top: 1px solid #000000; border-left: 2px double #000000; border-right: 2px double #000000" align="left" valign=top>I</td>
+		<td style="border-top: 1px solid #000000; border-left: 2px double #000000; border-right: 2px double #000000" align="left" valign=top>N</td>
+		<td style="border-top: 1px solid #000000; border-left: 2px double #000000; border-right: 2px double #000000" align="left" valign=top><br></td>
+		<td style="border-top: 1px solid #000000; border-left: 2px double #000000; border-right: 2px double #000000" align="left" valign=top sdval="0" sdnum="1033;">0</td>
+		<td style="border-top: 1px solid #000000; border-left: 2px double #000000; border-right: 2px double #000000" align="left" valign=top sdval="-10000" sdnum="1033;">-10000</td>
+		<td style="border-top: 1px solid #000000; border-left: 2px double #000000; border-right: 2px double #000000" align="left" valign=top sdval="10000" sdnum="1033;">10000</td>
+		<td style="border-top: 1px solid #000000; border-left: 2px double #000000; border-right: 2px double #000000" align="left" valign=top>Single Precision Float</td>
+		<td style="border-top: 1px solid #000000; border-left: 2px double #000000; border-right: 2px double #000000" align="left" valign=top bgcolor="#E6B9B8"><br></td>
+		<td style="border-top: 1px solid #000000; border-left: 2px double #000000; border-right: 2px double #000000" align="left" valign=top>Deg</td>
+		<td style="border-top: 1px solid #000000; border-left: 2px double #000000; border-right: 2px double #000000" align="left" valign=top>float32</td>
+		<td style="border-top: 1px solid #000000; border-left: 2px double #000000; border-right: 2px solid #000000" align="left" valign=top bgcolor="#E6B9B8"><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-left: 2px solid #000000; border-right: 2px double #000000" height="140" align="left" valign=top><font size=1>AlignedCumMechMtrPosCRF_Deg_f32</font></td>
+		<td style="border-top: 1px solid #000000; border-left: 2px double #000000; border-right: 2px double #000000" align="left" valign=top><font size=1>AlignedCumMechMtrPosCRF_DegM</font></td>
+		<td style="border-top: 1px solid #000000; border-left: 2px double #000000; border-right: 2px double #000000" align="left" valign=top><font size=1>AbsHwPos_TcI2cVd</font></td>
+		<td style="border-top: 1px solid #000000; border-left: 2px double #000000; border-right: 2px double #000000" align="left" valign=top><font size=1>FDD05G I2CAbsoluteHandwheelPositionFunction</font></td>
+		<td style="border-top: 1px solid #000000; border-left: 2px double #000000; border-right: 2px double #000000" align="left" valign=top>Cumulative Motor position  adjusted for roll over but not counting from zero every ignition cycle and including the Turns Counter offset in core ref frame.</td>
+		<td style="border-top: 1px solid #000000; border-left: 2px double #000000; border-right: 2px double #000000" align="left" valign=top>I</td>
+		<td style="border-top: 1px solid #000000; border-left: 2px double #000000; border-right: 2px double #000000" align="left" valign=top>N</td>
+		<td style="border-top: 1px solid #000000; border-left: 2px double #000000; border-right: 2px double #000000" align="left" valign=top><br></td>
+		<td style="border-top: 1px solid #000000; border-left: 2px double #000000; border-right: 2px double #000000" align="left" valign=top sdval="0" sdnum="1033;">0</td>
+		<td style="border-top: 1px solid #000000; border-left: 2px double #000000; border-right: 2px double #000000" align="left" valign=top sdval="-10000" sdnum="1033;">-10000</td>
+		<td style="border-top: 1px solid #000000; border-left: 2px double #000000; border-right: 2px double #000000" align="left" valign=top sdval="10000" sdnum="1033;">10000</td>
+		<td style="border-top: 1px solid #000000; border-left: 2px double #000000; border-right: 2px double #000000" align="left" valign=top>Single Precision Float</td>
+		<td style="border-top: 1px solid #000000; border-left: 2px double #000000; border-right: 2px double #000000" align="left" valign=top bgcolor="#E6B9B8"><br></td>
+		<td style="border-top: 1px solid #000000; border-left: 2px double #000000; border-right: 2px double #000000" align="left" valign=top>Deg</td>
+		<td style="border-top: 1px solid #000000; border-left: 2px double #000000; border-right: 2px double #000000" align="left" valign=top>float32</td>
+		<td style="border-top: 1px solid #000000; border-left: 2px double #000000; border-right: 2px solid #000000" align="left" valign=top bgcolor="#E6B9B8"><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-left: 2px solid #000000; border-right: 2px double #000000" height="105" align="left" valign=top><font size=1>TurnsCntrValidity_Cnt_u08</font></td>
+		<td style="border-top: 1px solid #000000; border-left: 2px double #000000; border-right: 2px double #000000" align="left" valign=top><font size=1>TurnsCntr_Validity</font></td>
+		<td style="border-top: 1px solid #000000; border-left: 2px double #000000; border-right: 2px double #000000" align="left" valign=top><font size=1>AbsHwPos_TcI2cVd</font></td>
+		<td style="border-top: 1px solid #000000; border-left: 2px double #000000; border-right: 2px double #000000" align="left" valign=top><font size=1>FDD05G I2CAbsoluteHandwheelPositionFunction</font></td>
+		<td style="border-top: 1px solid #000000; border-left: 2px double #000000; border-right: 2px double #000000" align="left" valign=top>Provides indication of turns counter position offset calculation while it is being computed, calculated and valid, or invalid.</td>
+		<td style="border-top: 1px solid #000000; border-left: 2px double #000000; border-right: 2px double #000000" align="left" valign=top>I</td>
+		<td style="border-top: 1px solid #000000; border-left: 2px double #000000; border-right: 2px double #000000" align="left" valign=top>N</td>
+		<td style="border-top: 1px solid #000000; border-left: 2px double #000000; border-right: 2px double #000000" align="left" valign=top><br></td>
+		<td style="border-top: 1px solid #000000; border-left: 2px double #000000; border-right: 2px double #000000" align="left" valign=top sdval="0" sdnum="1033;">0</td>
+		<td style="border-top: 1px solid #000000; border-left: 2px double #000000; border-right: 2px double #000000" align="left" valign=top sdval="0" sdnum="1033;">0</td>
+		<td style="border-top: 1px solid #000000; border-left: 2px double #000000; border-right: 2px double #000000" align="left" valign=top sdval="255" sdnum="1033;">255</td>
+		<td style="border-top: 1px solid #000000; border-left: 2px double #000000; border-right: 2px double #000000" align="left" valign=top sdval="1" sdnum="1033;">1</td>
+		<td style="border-top: 1px solid #000000; border-left: 2px double #000000; border-right: 2px double #000000" align="left" valign=top bgcolor="#E6B9B8"><br></td>
+		<td style="border-top: 1px solid #000000; border-left: 2px double #000000; border-right: 2px double #000000" align="left" valign=top>Cnt</td>
+		<td style="border-top: 1px solid #000000; border-left: 2px double #000000; border-right: 2px double #000000" align="left" valign=top>u08</td>
+		<td style="border-top: 1px solid #000000; border-left: 2px double #000000; border-right: 2px solid #000000" align="left" valign=top bgcolor="#E6B9B8"><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-left: 2px solid #000000; border-right: 2px double #000000" height="52" align="left" valign=top><font size=1>I2CHwAbsPos_HwDeg_f32</font></td>
+		<td style="border-top: 1px solid #000000; border-left: 2px double #000000; border-right: 2px double #000000" align="left" valign=top><font size=1>I2C_HwAbsPos</font></td>
+		<td style="border-top: 1px solid #000000; border-left: 2px double #000000; border-right: 2px double #000000" align="left" valign=top><font size=1>AbsHwPos_TcI2cVd</font></td>
+		<td style="border-top: 1px solid #000000; border-left: 2px double #000000; border-right: 2px double #000000" align="left" valign=top><font size=1>FDD05G I2CAbsoluteHandwheelPositionFunction</font></td>
+		<td style="border-top: 1px solid #000000; border-left: 2px double #000000; border-right: 2px double #000000" align="left" valign=top>Absolute steering wheel angle derived from the I2C sensor</td>
+		<td style="border-top: 1px solid #000000; border-left: 2px double #000000; border-right: 2px double #000000" align="left" valign=top>I</td>
+		<td style="border-top: 1px solid #000000; border-left: 2px double #000000; border-right: 2px double #000000" align="left" valign=top>N</td>
+		<td style="border-top: 1px solid #000000; border-left: 2px double #000000; border-right: 2px double #000000" align="left" valign=top><br></td>
+		<td style="border-top: 1px solid #000000; border-left: 2px double #000000; border-right: 2px double #000000" align="left" valign=top sdval="0" sdnum="1033;">0</td>
+		<td style="border-top: 1px solid #000000; border-left: 2px double #000000; border-right: 2px double #000000" align="left" valign=top sdval="-900" sdnum="1033;">-900</td>
+		<td style="border-top: 1px solid #000000; border-left: 2px double #000000; border-right: 2px double #000000" align="left" valign=top sdval="900" sdnum="1033;">900</td>
+		<td style="border-top: 1px solid #000000; border-left: 2px double #000000; border-right: 2px double #000000" align="left" valign=top>Single Precision Float</td>
+		<td style="border-top: 1px solid #000000; border-left: 2px double #000000; border-right: 2px double #000000" align="left" valign=top bgcolor="#E6B9B8"><br></td>
+		<td style="border-top: 1px solid #000000; border-left: 2px double #000000; border-right: 2px double #000000" align="left" valign=top>HwDeg</td>
+		<td style="border-top: 1px solid #000000; border-left: 2px double #000000; border-right: 2px double #000000" align="left" valign=top>float32</td>
+		<td style="border-top: 1px solid #000000; border-left: 2px double #000000; border-right: 2px solid #000000" align="left" valign=top bgcolor="#E6B9B8"><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+	</tr>
+	<tr>
+		<td sty

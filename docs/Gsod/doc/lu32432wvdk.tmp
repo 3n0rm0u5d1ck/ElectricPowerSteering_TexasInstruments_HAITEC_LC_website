@@ -1,0 +1,1027 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	
+	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+	<title></title>
+	<meta name="generator" content="LibreOffice 7.3.7.2 (Linux)"/>
+	<meta name="author" content="Terry Smith"/>
+	<meta name="created" content="1996-10-14T23:33:28"/>
+	<meta name="changedby" content="cz3rrx"/>
+	<meta name="changed" content="2013-05-31T14:37:50"/>
+	<meta name="AppVersion" content="12.0000"/>
+	
+	<style type="text/css">
+		body,div,table,thead,tbody,tfoot,tr,th,td,p { font-family:"Arial"; font-size:x-small }
+		a.comment-indicator:hover + comment { background:#ffd; position:absolute; display:block; border:1px solid black; padding:0.5em;  } 
+		a.comment-indicator { background:red; display:inline-block; border:1px solid black; width:0.5em; height:0.5em;  } 
+		comment { display:none;  } 
+	</style>
+	
+</head>
+
+<body>
+<hr>
+	<p><center>
+		<h1>Overview</h1>
+		<A HREF="#table0">Change Log</A><br>
+		<A HREF="#table1">Variable Dictionary</A><br>
+		<A HREF="#table2">Calibration Dictionary</A><br>
+		<A HREF="#table3">Global Constants</A><br>
+		<A HREF="#table6">Template</A><br>
+		<A HREF="#table7">Help</A><br>
+		
+	</center></p>
+<hr>
+<A NAME="table0"><h1>Sheet 1: <em>Change Log</em></h1></A>
+<table cellspacing="0" border="0">
+	<colgroup span="2" width="64"></colgroup>
+	<colgroup width="109"></colgroup>
+	<colgroup width="580"></colgroup>
+	<colgroup span="3" width="64"></colgroup>
+	<colgroup width="77"></colgroup>
+	<tr>
+		<td style="border-bottom: 2px solid #000000; border-left: 1px solid #000000" colspan=4 height="25" align="center" valign=middle bgcolor="#993366"><font size=4 color="#FFFFFF">Global Signal Overwrite Detection - Rev 4</font></td>
+		<td style="border-bottom: 2px solid #000000" align="left" valign=middle>&lt;- Global Program / Module Name</td>
+		<td style="border-bottom: 2px solid #000000" align="center" valign=middle><br></td>
+		<td style="border-bottom: 2px solid #000000" align="center" valign=middle><br></td>
+		<td style="border-bottom: 2px solid #000000" align="center" valign=middle><br></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="17" align="center" valign=bottom>Revision</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom>Author</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom>Date</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=bottom>Change Description</td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td style="border-left: 1px solid #000000" align="right" valign=top>Data Dictionary Type:</td>
+		<td align="left" valign=bottom>Component</td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="17" align="center" valign=bottom sdval="1" sdnum="1033;0;0.0">1.0</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom>JWJ</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom sdval="41204" sdnum="1033;0;D-MMM-YY">22-Oct-12</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=bottom>Initial Version</td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="17" align="center" valign=bottom sdval="2" sdnum="1033;">2</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom>JWJ</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom sdval="41227" sdnum="1033;0;D-MMM-YY">14-Nov-12</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=bottom>Corrected incompatible input signal units</td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="20" align="center" valign=bottom sdval="3" sdnum="1033;0;0.0">3.0</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom>BDO</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom sdval="41415" sdnum="1033;0;D-MMM-YY">21-May-13</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=bottom>Update to FDD SF37 v002 (removed Vel inputs) and anomaly 5035</td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="34" align="center" valign=bottom sdval="4" sdnum="1033;">4</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom>NPH</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom sdval="41425" sdnum="1033;0;D-MMM-YY">31-May-13</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=bottom>var name change: TorqCmd_CRF_OverwriteFlt_Cnt_D_lgc<br>TorqCmd_MRF_OverwriteFlt_Cnt_D_lgc, std ref name</td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="17" align="center" valign=bottom><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom sdnum="1033;0;D-MMM-YY"><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="17" align="center" valign=bottom><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom sdnum="1033;0;D-MMM-YY"><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="17" align="center" valign=bottom><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom sdnum="1033;0;D-MMM-YY"><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="17" align="center" valign=bottom><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom sdnum="1033;0;D-MMM-YY"><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="17" align="center" valign=bottom><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom sdnum="1033;0;D-MMM-YY"><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="17" align="center" valign=bottom><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom sdnum="1033;0;D-MMM-YY"><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="17" align="center" valign=bottom><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom sdnum="1033;0;D-MMM-YY"><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="17" align="center" valign=bottom><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom sdnum="1033;0;D-MMM-YY"><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="17" align="center" valign=bottom><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom sdnum="1033;0;D-MMM-YY"><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="17" align="center" valign=bottom><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom sdnum="1033;0;D-MMM-YY"><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="17" align="center" valign=bottom><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom sdnum="1033;0;D-MMM-YY"><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="17" align="center" valign=bottom><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom sdnum="1033;0;D-MMM-YY"><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="17" align="center" valign=bottom><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom sdnum="1033;0;D-MMM-YY"><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="17" align="center" valign=bottom><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom sdnum="1033;0;D-MMM-YY"><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="17" align="center" valign=bottom><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom sdnum="1033;0;D-MMM-YY"><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="17" align="center" valign=bottom><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom sdnum="1033;0;D-MMM-YY"><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="17" align="center" valign=bottom><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom sdnum="1033;0;D-MMM-YY"><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="17" align="center" valign=bottom><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom sdnum="1033;0;D-MMM-YY"><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="17" align="center" valign=bottom><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom sdnum="1033;0;D-MMM-YY"><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="17" align="center" valign=bottom><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom sdnum="1033;0;D-MMM-YY"><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="17" align="center" valign=bottom><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom sdnum="1033;0;D-MMM-YY"><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="17" align="center" valign=bottom><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom sdnum="1033;0;D-MMM-YY"><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="17" align="center" valign=bottom><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom sdnum="1033;0;D-MMM-YY"><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="17" align="center" valign=bottom><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="17" align="center" valign=bottom><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="17" align="center" valign=bottom><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="17" align="center" valign=bottom><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="17" align="center" valign=bottom><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="17" align="center" valign=bottom><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="17" align="center" valign=bottom><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="17" align="center" valign=bottom><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="17" align="center" valign=bottom><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="17" align="center" valign=bottom><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="17" align="center" valign=bottom><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="17" align="center" valign=bottom><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="17" align="center" valign=bottom><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="17" align="center" valign=bottom><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="17" align="center" valign=bottom><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="17" align="center" valign=bottom><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="17" align="center" valign=bottom><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=bottom><br></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+	</tr>
+</table>
+<!-- ************************************************************************** -->
+<hr>
+<A NAME="table1"><h1>Sheet 2: <em>Variable Dictionary</em></h1></A>
+<table cellspacing="0" border="0">
+	<colgroup width="325"></colgroup>
+	<colgroup span="2" width="221"></colgroup>
+	<colgroup width="151"></colgroup>
+	<colgroup width="53"></colgroup>
+	<colgroup width="42"></colgroup>
+	<colgroup width="68"></colgroup>
+	<colgroup span="2" width="184"></colgroup>
+	<colgroup width="180"></colgroup>
+	<colgroup width="161"></colgroup>
+	<colgroup width="112"></colgroup>
+	<colgroup width="110"></colgroup>
+	<colgroup width="116"></colgroup>
+	<colgroup width="273"></colgroup>
+	<colgroup width="34"></colgroup>
+	<colgroup width="19"></colgroup>
+	<colgroup width="18"></colgroup>
+	<colgroup width="19"></colgroup>
+	<colgroup span="2" width="17"></colgroup>
+	<tr>
+		<td style="border-bottom: 2px solid #000000; border-left: 1px solid #000000" colspan=16 height="39" align="center" valign=middle bgcolor="#993366"><font size=4 color="#FFFFFF">Global Signal Overwrite Detection - Rev 4</font></td>
+		<td align="left" valign=middle><br></td>
+		<td align="left" valign=middle><br></td>
+		<td align="left" valign=bottom>I</td>
+		<td align="left" valign=bottom>O</td>
+		<td align="left" valign=bottom>M</td>
+		<td align="left" valign=bottom>D</td>
+		<td align="left" valign=bottom>N</td>
+	</tr>
+	<tr>
+		<td style="border-top: 2px solid #000000; border-bottom: 2px solid #000000; border-left: 1px solid #000000; border-right: 2px solid #000000" colspan=16 height="18" align="center" valign=bottom bgcolor="#CCFFFF"><b>Variable Information</b></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom>Y</td>
+		<td align="left" valign=bottom>N</td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+	</tr>
+	<tr>
+		<td style="border-top: 2px solid #000000; border-left: 1px solid #000000" height="17" align="left" valign=bottom><b><font size=1><br></font></b></td>
+		<td style="border-top: 2px solid #000000" align="left" valign=bottom><b><font size=1><br></font></b></td>
+		<td style="border-top: 2px solid #000000" align="left" valign=bottom><b><font size=1><br></font></b></td>
+		<td style="border-top: 2px solid #000000; border-left: 2px double #000000; border-right: 2px double #000000" align="left" valign=bottom><b><font size=1><br></font></b></td>
+		<td style="border-top: 2px solid #000000; border-left: 2px double #000000; border-right: 2px double #000000" align="center" valign=bottom><b><font size=1><br></font></b></td>
+		<td style="border-right: 2px double #000000" align="center" valign=bottom><b><font size=1><br></font></b></td>
+		<td style="border-top: 2px solid #000000; border-left: 2px double #000000; border-right: 2px double #000000" align="center" valign=bottom><b><font size=1><br></font></b></td>
+		<td align="center" valign=bottom><b><font size=1><br></font></b></td>
+		<td style="border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 2px double #000000" colspan=2 align="center" valign=bottom><b><font size=1>Range</font></b></td>
+		<td style="border-top: 2px solid #000000; border-left: 2px double #000000; border-right: 2px double #000000" align="center" valign=top><b><font size=1><br></font></b></td>
+		<td style="border-top: 2px solid #000000; border-left: 2px double #000000; border-right: 2px double #000000" align="center" valign=top><b><font size=1><br></font></b></td>
+		<td style="border-top: 2px solid #000000; border-left: 2px double #000000; border-right: 2px double #000000" align="center" valign=top><b><font size=1><br></font></b></td>
+		<td style="border-right: 2px solid #000000" align="center" valign=bottom><b><font size=1><br></font></b></td>
+		<td align="left" valign=bottom><font size=1><br></font></td>
+		<td align="left" valign=bottom><font size=1><br></font></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+	</tr>
+	<tr>
+		<td style="border-bottom: 2px solid #000000; border-left: 1px solid #000000" height="31" align="center" valign=bottom><b><font size=1>Software Variable Name</font></b></td>
+		<td style="border-bottom: 2px solid #000000" align="center" valign=bottom><b><font size=1>Standard Reference Name</font></b></td>
+		<td style="border-bottom: 2px solid #000000" align="center" valign=bottom><b><font size=1>FDD Reference</font></b></td>
+		<td style="border-bottom: 2px solid #000000; border-left: 2px double #000000; border-right: 2px double #000000" align="center" valign=bottom><b><font size=1>Description</font></b></td>
+		<td style="border-bottom: 2px solid #000000; border-left: 2px double #000000; border-right: 2px double #000000" align="center" valign=bottom><a class="comment-indicator"></a>
+		<comment>[I]nput
+[O]uput
+[M]oduleInternal
+[D]isplay
+[N]onVolatileMemory</comment>
+		<b><font size=1>Usage</font></b></td>
+		<td style="border-bottom: 2px solid #000000; border-right: 2px double #000000" align="center" valign=bottom><b><font size=1>OEM</font></b></td>
+		<td style="border-bottom: 2px solid #000000; border-left: 2px double #000000; border-right: 2px double #000000" align="center" valign=bottom><a class="comment-indicator"></a>
+		<comment>1X, 1Y, 1Z, 1I, 1BS
+2X, 2Y, 2Z, 2I, 2BS
+etc</comment>
+		<b><font size=1>Graph Settings</font></b></td>
+		<td style="border-bottom: 2px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom><b><font size=1>Initalization Value</font></b></td>
+		<td style="border-bottom: 2px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom><b><font size=1>Min</font></b></td>
+		<td style="border-bottom: 2px solid #000000; border-left: 1px solid #000000; border-right: 2px double #000000" align="center" valign=bottom><b><font size=1>Max</font></b></td>
+		<td style="border-bottom: 2px solid #000000; border-left: 2px double #000000; border-right: 2px double #000000" align="center" valign=bottom><b><font size=1>Resolution</font></b></td>
+		<td style="border-bottom: 2px solid #000000; border-left: 2px double #000000; border-right: 2px double #000000" align="center" valign=bottom><b><font size=1>Unit Test Tolerance (+/-)</font></b></td>
+		<td style="border-bottom: 2px solid #000000; border-left: 2px double #000000; border-right: 2px double #000000" align="center" valign=bottom><b><font size=1>Units</font></b></td>
+		<td style="border-bottom: 2px solid #000000; border-right: 2px solid #000000" align="center" valign=bottom><b><font size=1>Type</font></b></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="center" valign=bottom><font size=1><br></font></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+	</tr>
+	<tr>
+		<td style="border-top: 2px solid #000000; border-bottom: 1px solid #000000; border-left: 2px solid #000000" height="20" align="left" valign=bottom bgcolor="#C0C0C0"><b><i>Variables</i></b></td>
+		<td style="border-top: 2px solid #000000; border-bottom: 1px solid #000000" align="left" valign=bottom bgcolor="#C0C0C0"><b><i><br></i></b></td>
+		<td style="border-top: 2px solid #000000; border-bottom: 1px solid #000000" align="left" valign=bottom bgcolor="#C0C0C0"><b><i><br></i></b></td>
+		<td style="border-top: 2px solid #000000; border-bottom: 1px solid #000000" align="left" valign=bottom bgcolor="#C0C0C0"><font size=1><br></font></td>
+		<td style="border-top: 2px solid #000000; border-bottom: 1px solid #000000" align="center" valign=bottom bgcolor="#C0C0C0"><font size=1><br></font></td>
+		<td style="border-top: 2px solid #000000; border-bottom: 1px solid #000000" align="center" valign=bottom bgcolor="#C0C0C0"><font size=1><br></font></td>
+		<td style="border-top: 2px solid #000000; border-bottom: 1px solid #000000" align="center" valign=bottom bgcolor="#C0C0C0"><font size=1><br></font></td>
+		<td style="border-top: 2px solid #000000; border-bottom: 1px solid #000000" align="center" valign=bottom bgcolor="#C0C0C0"><font size=1><br></font></td>
+		<td style="border-top: 2px solid #000000; border-bottom: 1px solid #000000" align="center" valign=bottom bgcolor="#C0C0C0"><font size=1><br></font></td>
+		<td style="border-top: 2px solid #000000; border-bottom: 1px solid #000000" align="center" valign=bottom bgcolor="#C0C0C0"><font size=1><br></font></td>
+		<td style="border-top: 2px solid #000000; border-bottom: 1px solid #000000" align="center" valign=bottom bgcolor="#C0C0C0"><font size=1><br></font></td>
+		<td style="border-top: 2px solid #000000; border-bottom: 1px solid #000000" align="center" valign=bottom bgcolor="#C0C0C0"><font size=1><br></font></td>
+		<td style="border-top: 2px solid #000000; border-bottom: 1px solid #000000" align="center" valign=bottom bgcolor="#C0C0C0"><font size=1><br></font></td>
+		<td style="border-top: 2px solid #000000; border-bottom: 1px solid #000000" align="center" valign=bottom bgcolor="#C0C0C0"><font size=1><br></font></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+	</tr>
+	<tr>
+		<td style="border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 2px double #000000" height="17" align="left" valign=top><font face="Calibri" size=1>Corrected_MtrPos_Rev_f32</font></td>
+		<td style="border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 2px double #000000" align="left" valign=top><font face="Calibri" size=1>Corrected_MtrPos</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-right: 2px double #000000" align="left" valign=top><font face="Calibri" size=1 color="#000000">SF37 GlobalSignalOverwriteDetection</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 2px double #000000" align="left" valign=bottom><font face="Calibri" size=1><br></font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 2px double #000000" align="center" valign=bottom><font face="Calibri" size=1>I</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-right: 2px double #000000" align="center" valign=bottom><font face="Calibri" size=1>N</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" valign=bottom><font face="Calibri" size=1><br></font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom sdval="0" sdnum="1033;"><font face="Calibri" size=1>0</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom sdval="0" sdnum="1033;"><font face="Calibri" size=1>0</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom sdval="1" sdnum="1033;"><font face="Calibri" size=1>1</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom><font face="Calibri" size=1>Single Precision Float</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom bgcolor="#808080"><font face="Calibri" size=1><br></font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom><font face="Calibri" size=1>Rev</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom><font size=1>float32</font></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+	</tr>
+	<tr>
+		<td style="border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 2px double #000000" height="17" align="left" valign=top><font face="Calibri" size=1>Ana_Hw_Torque_HwNm_f32</font></td>
+		<td style="border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 2px double #000000" align="left" valign=top><font face="Calibri" size=1>Ana_Hw_Torque</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-right: 2px double #000000" align="left" valign=top><font face="Calibri" size=1 color="#000000">SF37 GlobalSignalOverwriteDetection</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 2px double #000000" align="left" valign=bottom><font face="Calibri" size=1><br></font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 2px double #000000" align="center" valign=bottom><font face="Calibri" size=1>I</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-right: 2px double #000000" align="center" valign=bottom><font face="Calibri" size=1>N</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" valign=bottom><font face="Calibri" size=1><br></font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom sdval="0" sdnum="1033;"><font face="Calibri" size=1>0</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom sdval="-10" sdnum="1033;"><font face="Calibri" size=1>-10</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom sdval="10" sdnum="1033;"><font face="Calibri" size=1>10</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom><font face="Calibri" size=1>Single Precision Float</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom bgcolor="#808080"><font face="Calibri" size=1><br></font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom><font face="Calibri" size=1>HwNm</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom><font size=1>float32</font></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+	</tr>
+	<tr>
+		<td style="border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 2px double #000000" height="17" align="left" valign=top><font face="Calibri" size=1>Vecu_Volt_f32</font></td>
+		<td style="border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 2px double #000000" align="left" valign=top><font face="Calibri" size=1>Vecu</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-right: 2px double #000000" align="left" valign=top><font face="Calibri" size=1 color="#000000">SF37 GlobalSignalOverwriteDetection</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 2px double #000000" align="left" valign=bottom><font face="Calibri" size=1><br></font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 2px double #000000" align="center" valign=bottom><font face="Calibri" size=1>I</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-right: 2px double #000000" align="center" valign=bottom><font face="Calibri" size=1>N</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" valign=bottom><font face="Calibri" size=1><br></font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom sdval="5" sdnum="1033;"><font face="Calibri" size=1>5</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom sdval="5" sdnum="1033;"><font face="Calibri" size=1>5</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom sdval="31" sdnum="1033;"><font face="Calibri" size=1>31</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom><font face="Calibri" size=1>Single Precision Float</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom bgcolor="#808080"><font face="Calibri" size=1><br></font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom><font face="Calibri" size=1>Volt</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom><font size=1>float32</font></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+	</tr>
+	<tr>
+		<td style="border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 2px double #000000" height="17" align="left" valign=top><font face="Calibri" size=1>Torque_Cmd_CRF_MtrNm_f32</font></td>
+		<td style="border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 2px double #000000" align="left" valign=top><font face="Calibri" size=1>Torque_Cmd_CRF</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-right: 2px double #000000" align="left" valign=top><font face="Calibri" size=1 color="#000000">SF37 GlobalSignalOverwriteDetection</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 2px double #000000" align="left" valign=bottom><font face="Calibri" size=1><br></font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 2px double #000000" align="center" valign=bottom><font face="Calibri" size=1>I</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-right: 2px double #000000" align="center" valign=bottom><font face="Calibri" size=1>N</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" valign=bottom><font face="Calibri" size=1><br></font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom sdval="0" sdnum="1033;"><font face="Calibri" size=1>0</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom sdval="-8.8" sdnum="1033;"><font face="Calibri" size=1>-8.8</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom sdval="8.8" sdnum="1033;"><font face="Calibri" size=1>8.8</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom><font face="Calibri" size=1>Single Precision Float</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom bgcolor="#808080"><font face="Calibri" size=1><br></font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom><font face="Calibri" size=1>MtrNm</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom><font size=1>float32</font></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+	</tr>
+	<tr>
+		<td style="border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 2px double #000000" height="17" align="left" valign=top><font face="Calibri" size=1>Torque_Cmd_MRF_MtrNm_f32</font></td>
+		<td style="border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 2px double #000000" align="left" valign=top><font face="Calibri" size=1>Torque_Cmd_MRF</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-right: 2px double #000000" align="left" valign=top><font face="Calibri" size=1 color="#000000">SF37 GlobalSignalOverwriteDetection</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 2px double #000000" align="left" valign=bottom><font face="Calibri" size=1><br></font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 2px double #000000" align="center" valign=bottom><font face="Calibri" size=1>I</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-right: 2px double #000000" align="center" valign=bottom><font face="Calibri" size=1>N</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" valign=bottom><font face="Calibri" size=1><br></font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom sdval="0" sdnum="1033;"><font face="Calibri" size=1>0</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom sdval="-8.8" sdnum="1033;"><font face="Calibri" size=1>-8.8</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom sdval="8.8" sdnum="1033;"><font face="Calibri" size=1>8.8</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom><font face="Calibri" size=1>Single Precision Float</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom bgcolor="#808080"><font face="Calibri" size=1><br></font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom><font face="Calibri" size=1>MtrNm</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom><font size=1>float32</font></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+	</tr>
+	<tr>
+		<td style="border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 2px double #000000" height="17" align="left" valign=top><font face="Calibri" size=1>Cum_Mtr_Pos_CRF_Deg_f32</font></td>
+		<td style="border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 2px double #000000" align="left" valign=top><font face="Calibri" size=1>Cum_Mtr_Pos_CRF</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-right: 2px double #000000" align="left" valign=top><font face="Calibri" size=1 color="#000000">SF37 GlobalSignalOverwriteDetection</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 2px double #000000" align="left" valign=bottom><font face="Calibri" size=1><br></font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 2px double #000000" align="center" valign=bottom><font face="Calibri" size=1>I</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-right: 2px double #000000" align="center" valign=bottom><font face="Calibri" size=1>N</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" valign=bottom><font face="Calibri" size=1><br></font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom sdval="0" sdnum="1033;"><font face="Calibri" size=1>0</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom sdval="-7920000" sdnum="1033;"><font face="Calibri" size=1>-7920000</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom sdval="7920000" sdnum="1033;"><font face="Calibri" size=1>7920000</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom><font face="Calibri" size=1>Single Precision Float</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom bgcolor="#808080"><font face="Calibri" size=1><br></font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom><font face="Calibri" size=1>Deg</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom><font size=1>float32</font></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+	</tr>
+	<tr>
+		<td style="border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 2px double #000000" height="17" align="left" valign=top><font face="Calibri" size=1>MtrElecMech_Polarity_Cnt_s08</font></td>
+		<td style="border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 2px double #000000" align="left" valign=top><font face="Calibri" size=1>MtrElecMech_Polarity</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-right: 2px double #000000" align="left" valign=top><font face="Calibri" size=1 color="#000000">SF37 GlobalSignalOverwriteDetection</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 2px double #000000" align="left" valign=bottom><font face="Calibri" size=1><br></font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 2px double #000000" align="center" valign=bottom><font face="Calibri" size=1>I</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-right: 2px double #000000" align="center" valign=bottom><font face="Calibri" size=1>N</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" valign=bottom><font face="Calibri" size=1><br></font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom sdval="0" sdnum="1033;"><font face="Calibri" size=1>0</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom sdval="-1" sdnum="1033;"><font face="Calibri" size=1>-1</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom sdval="1" sdnum="1033;"><font face="Calibri" size=1>1</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom sdval="1" sdnum="1033;"><font face="Calibri" size=1>1</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom bgcolor="#808080"><font face="Calibri" size=1><br></font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom><font face="Calibri" size=1>Cnt</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom><font size=1>sint8</font></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+	</tr>
+	<tr>
+		<td style="border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 2px double #000000" height="17" align="left" valign=top><font face="Calibri" size=1>SysC_Corrected_MtrPos_Rev_f32</font></td>
+		<td style="border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 2px double #000000" align="left" valign=top><font face="Calibri" size=1>SysC_Corrected_MtrPos</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-right: 2px double #000000" align="left" valign=top><font face="Calibri" size=1 color="#000000">SF37 GlobalSignalOverwriteDetection</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 2px double #000000" align="left" valign=bottom><font face="Calibri" size=1><br></font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 2px double #000000" align="center" valign=bottom><font face="Calibri" size=1>I</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-right: 2px double #000000" align="center" valign=bottom><font face="Calibri" size=1>N</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" valign=bottom><font face="Calibri" size=1><br></font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom sdval="0" sdnum="1033;"><font face="Calibri" size=1>0</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom sdval="0" sdnum="1033;"><font face="Calibri" size=1>0</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom sdval="1" sdnum="1033;"><font face="Calibri" size=1>1</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom><font face="Calibri" size=1>Single Precision Float</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom bgcolor="#808080"><font face="Calibri" size=1><br></font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom><font face="Calibri" size=1>Rev</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom><font size=1>float32</font></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+	</tr>
+	<tr>
+		<td style="border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 2px double #000000" height="17" align="left" valign=top><font face="Calibri" size=1>SysC_Ana_Hw_Torque_HwNm_f32</font></td>
+		<td style="border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 2px double #000000" align="left" valign=top><font face="Calibri" size=1>SysC_Ana_Hw_Torque</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-right: 2px double #000000" align="left" valign=top><font face="Calibri" size=1 color="#000000">SF37 GlobalSignalOverwriteDetection</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 2px double #000000" align="left" valign=bottom><font face="Calibri" size=1><br></font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 2px double #000000" align="center" valign=bottom><font face="Calibri" size=1>I</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-right: 2px double #000000" align="center" valign=bottom><font face="Calibri" size=1>N</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" valign=bottom><font face="Calibri" size=1><br></font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom sdval="0" sdnum="1033;"><font face="Calibri" size=1>0</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom sdval="-10" sdnum="1033;"><font face="Calibri" size=1>-10</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom sdval="10" sdnum="1033;"><font face="Calibri" size=1>10</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom><font face="Calibri" size=1>Single Precision Float</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom bgcolor="#808080"><font face="Calibri" size=1><br></font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom><font face="Calibri" size=1>HwNm</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom><font size=1>float32</font></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+	</tr>
+	<tr>
+		<td style="border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 2px double #000000" height="17" align="left" valign=top><font face="Calibri" size=1>SysC_Vecu_Volt_f32</font></td>
+		<td style="border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 2px double #000000" align="left" valign=top><font face="Calibri" size=1>SysC_Vecu</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-right: 2px double #000000" align="left" valign=top bgcolor="#E6B9B8"><font face="Calibri" size=1 color="#000000">SF37 GlobalSignalOverwriteDetection</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 2px double #000000" align="left" valign=bottom><font face="Calibri" size=1><br></font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 2px double #000000" align="center" valign=bottom bgcolor="#E6B9B8"><font face="Calibri" size=1>I</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-right: 2px double #000000" align="center" valign=bottom bgcolor="#E6B9B8"><font face="Calibri" size=1>N</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" valign=bottom><font face="Calibri" size=1><br></font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom bgcolor="#E6B9B8" sdval="5" sdnum="1033;"><font face="Calibri" size=1>5</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom bgcolor="#E6B9B8" sdval="5" sdnum="1033;"><font face="Calibri" size=1>5</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom bgcolor="#E6B9B8" sdval="31" sdnum="1033;"><font face="Calibri" size=1>31</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom bgcolor="#E6B9B8"><font face="Calibri" size=1>Single Precision Float</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom bgcolor="#E6B9B8"><font face="Calibri" size=1><br></font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom bgcolor="#E6B9B8"><font face="Calibri" size=1>Volt</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom bgcolor="#E6B9B8"><font size=1>float32</font></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+	</tr>
+	<tr>
+		<td style="border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 2px double #000000" height="17" align="left" valign=top><font face="Calibri" size=1>SysC_Torque_Cmd_CRF_MtrNm_f32</font></td>
+		<td style="border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 2px double #000000" align="left" valign=top><font face="Calibri" size=1>SysC_Torque_Cmd_CRF</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-right: 2px double #000000" align="left" valign=top bgcolor="#E6B9B8"><font face="Calibri" size=1 color="#000000">SF37 GlobalSignalOverwriteDetection</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 2px double #000000" align="left" valign=bottom><font face="Calibri" size=1><br></font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 2px double #000000" align="center" valign=bottom bgcolor="#E6B9B8"><font face="Calibri" size=1>I</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-right: 2px double #000000" align="center" valign=bottom bgcolor="#E6B9B8"><font face="Calibri" size=1>N</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" valign=bottom><font face="Calibri" size=1><br></font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom bgcolor="#E6B9B8" sdval="0" sdnum="1033;"><font face="Calibri" size=1>0</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom bgcolor="#E6B9B8" sdval="-8.8" sdnum="1033;"><font face="Calibri" size=1>-8.8</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom bgcolor="#E6B9B8" sdval="8.8" sdnum="1033;"><font face="Calibri" size=1>8.8</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom bgcolor="#E6B9B8"><font face="Calibri" size=1>Single Precision Float</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom bgcolor="#E6B9B8"><font face="Calibri" size=1><br></font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom bgcolor="#E6B9B8"><font face="Calibri" size=1>MtrNm</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom bgcolor="#E6B9B8"><font size=1>float32</font></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+	</tr>
+	<tr>
+		<td style="border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 2px double #000000" height="17" align="left" valign=top><font face="Calibri" size=1>SysC_Torque_Cmd_MRF_MtrNm_f32</font></td>
+		<td style="border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 2px double #000000" align="left" valign=top><font face="Calibri" size=1>SysC_Torque_Cmd_MRF</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-right: 2px double #000000" align="left" valign=top><font face="Calibri" size=1 color="#000000">SF37 GlobalSignalOverwriteDetection</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 2px double #000000" align="left" valign=bottom><font face="Calibri" size=1><br></font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 2px double #000000" align="center" valign=bottom><font face="Calibri" size=1>I</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-right: 2px double #000000" align="center" valign=bottom><font face="Calibri" size=1>N</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" valign=bottom><font face="Calibri" size=1><br></font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom sdval="0" sdnum="1033;"><font face="Calibri" size=1>0</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom sdval="-8.8" sdnum="1033;"><font face="Calibri" size=1>-8.8</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom sdval="8.8" sdnum="1033;"><font face="Calibri" size=1>8.8</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom><font face="Calibri" size=1>Single Precision Float</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom bgcolor="#808080"><font face="Calibri" size=1><br></font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom><font face="Calibri" size=1>MtrNm</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom><font size=1>float32</font></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+	</tr>
+	<tr>
+		<td style="border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 2px double #000000" height="17" align="left" valign=top><font face="Calibri" size=1>SysC_Cum_Mtr_Pos_CRF_Deg_f32</font></td>
+		<td style="border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 2px double #000000" align="left" valign=top><font face="Calibri" size=1>SysC_Cum_Mtr_Pos_CRF</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-right: 2px double #000000" align="left" valign=top><font face="Calibri" size=1 color="#000000">SF37 GlobalSignalOverwriteDetection</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 2px double #000000" align="left" valign=bottom><font face="Calibri" size=1><br></font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 2px double #000000" align="center" valign=bottom><font face="Calibri" size=1>I</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-right: 2px double #000000" align="center" valign=bottom><font face="Calibri" size=1>N</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" valign=bottom><font face="Calibri" size=1><br></font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom sdval="0" sdnum="1033;"><font face="Calibri" size=1>0</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom sdval="-7920000" sdnum="1033;"><font face="Calibri" size=1>-7920000</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom sdval="7920000" sdnum="1033;"><font face="Calibri" size=1>7920000</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom><font face="Calibri" size=1>Single Precision Float</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom bgcolor="#808080"><font face="Calibri" size=1><br></font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom><font face="Calibri" size=1>Deg</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom><font size=1>float32</font></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+	</tr>
+	<tr>
+		<td style="border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 2px double #000000" height="17" align="left" valign=top><font face="Calibri" size=1>SysC_MtrElecMech_Polarity_Cnt_s32</font></td>
+		<td style="border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 2px double #000000" align="left" valign=top><font face="Calibri" size=1>SysC_MtrElecMech_Polarity</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-right: 2px double #000000" align="left" valign=top bgcolor="#E6B9B8"><font face="Calibri" size=1 color="#000000">SF37 GlobalSignalOverwriteDetection</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 2px double #000000" align="left" valign=bottom><font face="Calibri" size=1><br></font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 2px double #000000" align="center" valign=bottom bgcolor="#E6B9B8"><font face="Calibri" size=1>I</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-right: 2px double #000000" align="center" valign=bottom bgcolor="#E6B9B8"><font face="Calibri" size=1>N</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" valign=bottom><font face="Calibri" size=1><br></font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom bgcolor="#E6B9B8" sdval="0" sdnum="1033;"><font face="Calibri" size=1>0</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom bgcolor="#E6B9B8" sdval="-1" sdnum="1033;"><font face="Calibri" size=1>-1</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom bgcolor="#E6B9B8" sdval="1" sdnum="1033;"><font face="Calibri" size=1>1</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom bgcolor="#E6B9B8" sdval="1" sdnum="1033;"><font face="Calibri" size=1>1</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom bgcolor="#E6B9B8"><font face="Calibri" size=1><br></font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom bgcolor="#E6B9B8"><font face="Calibri" size=1>Cnt</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom bgcolor="#E6B9B8"><font size=1>sint32</font></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+	</tr>
+	<tr>
+		<td style="border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 2px double #000000" height="45" align="left" valign=top><font face="Calibri" size=1>MtrPos_OverwriteFlt_Cnt_D_lgc</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-right: 2px double #000000" align="left" valign=top><font face="Calibri" size=1 color="#000000">MtrPos_OverwriteFlt</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-right: 2px double #000000" align="left" valign=top><font face="Calibri" size=1 color="#000000">SF37 GlobalSignalOverwriteDetection</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 2px double #000000" align="left" valign=bottom><font face="Calibri" size=1>Motor Position signal overwrite fault display variable</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 2px double #000000" align="center" valign=bottom><font face="Calibri" size=1>D</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-right: 2px double #000000" align="center" valign=bottom><font face="Calibri" size=1>N</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" valign=bottom><font face="Calibri" size=1><br></font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom sdval="0" sdnum="1033;"><font face="Calibri" size=1>0</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom sdval="0" sdnum="1033;"><font face="Calibri" size=1>0</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom sdval="1" sdnum="1033;"><font face="Calibri" size=1>1</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom><font face="Calibri" size=1>N/A</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom bgcolor="#E6B9B8"><font face="Calibri" size=1>N/A</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom><font face="Calibri" size=1>Cnt</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom><font size=1>boolean</font></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+	</tr>
+	<tr>
+		<td style="border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 2px double #000000" height="45" align="left" valign=top><font face="Calibri" size=1>HwTorque_OverwriteFlt_Cnt_D_lgc</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-right: 2px double #000000" align="left" valign=top><font face="Calibri" size=1 color="#000000">HwTorque_OverwriteFlt</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-right: 2px double #000000" align="left" valign=top><font face="Calibri" size=1 color="#000000">SF37 GlobalSignalOverwriteDetection</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 2px double #000000" align="left" valign=bottom><font face="Calibri" size=1>Handwheel Torque signal overwrite fault display variable</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 2px double #000000" align="center" valign=bottom><font face="Calibri" size=1>D</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-right: 2px double #000000" align="center" valign=bottom><font face="Calibri" size=1>N</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" valign=bottom><font face="Calibri" size=1><br></font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom sdval="0" sdnum="1033;"><font face="Calibri" size=1>0</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom sdval="0" sdnum="1033;"><font face="Calibri" size=1>0</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom sdval="1" sdnum="1033;"><font face="Calibri" size=1>1</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom><font face="Calibri" size=1>N/A</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom bgcolor="#E6B9B8"><font face="Calibri" size=1>N/A</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom><font face="Calibri" size=1>Cnt</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom><font size=1>boolean</font></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+	</tr>
+	<tr>
+		<td style="border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 2px double #000000" height="30" align="left" valign=top><font face="Calibri" size=1>Vecu_OverwriteFlt_Cnt_D_lgc</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-right: 2px double #000000" align="left" valign=top><font face="Calibri" size=1 color="#000000">Vecu_OverwriteFlt</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-right: 2px double #000000" align="left" valign=top><font face="Calibri" size=1 color="#000000">SF37 GlobalSignalOverwriteDetection</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 2px double #000000" align="left" valign=bottom><font face="Calibri" size=1>Vecu  signal overwrite fault display variable</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 2px double #000000" align="center" valign=bottom><font face="Calibri" size=1>D</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-right: 2px double #000000" align="center" valign=bottom><font face="Calibri" size=1>N</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" valign=bottom><font face="Calibri" size=1><br></font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom sdval="0" sdnum="1033;"><font face="Calibri" size=1>0</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom sdval="0" sdnum="1033;"><font face="Calibri" size=1>0</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom sdval="1" sdnum="1033;"><font face="Calibri" size=1>1</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom><font face="Calibri" size=1>N/A</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom bgcolor="#E6B9B8"><font face="Calibri" size=1>N/A</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom><font face="Calibri" size=1>Cnt</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom><font size=1>boolean</font></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+		<td align="left" valign=bottom><br></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-left: 2px solid #000000; border-right: 2px double #000000" height="45" align="left" valign=top><font size=1>TorqCmd_CRF_OverwriteFlt_Cnt_D_lgc</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-right: 2px double #000000" align="left" valign=top><font face="Calibri" size=1 color="#000000">TorqCmd_CRF_OverwriteFlt</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-right: 2px double #000000" align="left" valign=top><font face="Calibri" size=1 color="#000000">SF37 GlobalSignalOverwriteDetection</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 2px double #000000" align="left" valign=bottom><font face="Calibri" size=1>Torque Command CRF  signal overwrite fault display variable</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 2px double #000000" align="center" valign=bottom><font face="Calibri" size=1>D</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-right: 2px double #000000" align="center" valign=bottom><font face="Calibri" size=1>N</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" align="center" valign=bottom><font face="Calibri" size=1><br></font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom sdval="0" sdnum="1033;"><font face="Calibri" size=1>0</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom sdval="0" sdnum="1033;"><font face="Calibri" size=1>0</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom sdval="1" sdnum="1033;"><font face="Calibri" size=1>1</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom><font face="Calibri" size=1>N/A</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom><font face="Calibri" size=1>N/A</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px double #000000; border-right: 1px solid #000000" align="center" valign=bottom><font face="Calibri" size=1>Cnt</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left:
